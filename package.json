@@ -1,0 +1,17 @@
+{
+  "name": "vuepress-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MrHanson/vuepress-template.git",
+  "author": "mrhanson <chihanghanson@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:deploy": ""
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "vuepress": "^1.5.0"
+  }
+}
