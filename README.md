@@ -16,7 +16,9 @@ npm i
 yarn
 ```
 
-### 构建文档
+### 将文档部署到 github pages
+
+1. 构建文档
 
 ```shell
 npm run docs:build
@@ -24,9 +26,7 @@ npm run docs:build
 yarn docs:build
 ```
 
-### 将文档部署到 github pages
-
-1. 执行模板已经配置好相关的 npm script
+2. 执行模板已经配置好相关的 npm script
 
 ```shell
 # 执行如下指令其一即可
@@ -35,6 +35,6 @@ npm run docs:deploy
 yarn docs:deploy
 ```
 
-2. 将该仓库的的 github pages 设置为 gh-pages 分支
+3. 将该仓库的的 github pages 设置为 gh-pages 分支
 
 ## 欢迎提交 Issues 或者 PR
