@@ -16,7 +16,29 @@ npm i
 yarn
 ```
 
-### 将文档部署到 github pages
+### 目录结构说明
+
+> docs 目录下为 vuepress 文档的所有相关代码
+
+- **README.md**为网站首页
+
+- **home.md**为目录页
+
+- **guide**和**demo**文件夹为默认的两个模块（可根据需求自行更改），文件夹内为对应模块的文章
+
+### 写作
+
+1. 启动本地服务
+
+```shell
+npm run docs:dev
+# or
+yarn docs:dev
+```
+
+2. 在对应模块的文件夹内创建 markdown 文件并写作
+
+## 将文档部署到 github pages
 
 1. 构建文档
 
