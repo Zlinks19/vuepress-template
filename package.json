@@ -1,7 +1,6 @@
 {
   "name": "vuepress-template",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/MrHanson/vuepress-template.git",
   "author": "mrhanson <chihanghanson@gmail.com>",
   "license": "MIT",
